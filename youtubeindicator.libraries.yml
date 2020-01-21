@@ -1,0 +1,18 @@
+youtubeindicator-main:
+  version: 1.x
+  css:
+    theme:
+      css/main.css: {}
+  js:
+    js/main.js: {}
+youtubeindicator-bootbox:
+  version: 1.x
+  js:
+    js/bootbox.min.js: {minified: true}
+youtubeindicator-bootstrap:
+  version: 1.x
+  css:
+    theme:
+      css/bootstrap.min.css: {minified: true}
+  js:
+    js/bootstrap.min.js: {minified: true}

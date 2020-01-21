@@ -1,0 +1,5 @@
+name: youtubeindicator
+description: 'Youtube video code to embed filter'
+type: module
+core: 8.x
+package: Filters
