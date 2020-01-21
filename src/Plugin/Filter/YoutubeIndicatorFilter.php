@@ -19,7 +19,7 @@ class YoutubeIndicatorFilter extends FilterBase {
    * {@inheritdoc}
    */
   public function process($text, $langcode) {
-    $switched = preg_replace("/\[yt: (.*)\]/i", "<input type='button' value='Youtube video' onclick='showYt(\"$1\");' />", $text);
+    $switched = preg_replace("/\[yt: (.*)\]/i", "<input type='button' value='Youtube video' style='background-color: red;' onclick='showYt(\"$1\");' />", $text);
 	$result = new FilterProcessResult($switched);
 	$result->setAttachments(array(
       'library' => array('youtubeindicator/youtubeindicator-main', 'youtubeindicator/youtubeindicator-bootbox', 'youtubeindicator/youtubeindicator-bootstrap'),
