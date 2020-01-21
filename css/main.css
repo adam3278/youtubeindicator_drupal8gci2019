@@ -1,0 +1,7 @@
+.bootbox-alert {
+	opacity: 1 !important;
+}
+
+.modal-backdrop.fade.show {
+	display: none !important;
+}
